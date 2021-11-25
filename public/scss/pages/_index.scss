@@ -1,0 +1,39 @@
+// menu 1 index
+
+.menu1 {
+    @include menu-box;
+    box-shadow: $box-shadow;
+    background-color: $background-menu1;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+.menu1>img,
+.menu1 i {
+    @include transition;
+    color: $title-menu1; 
+}
+.menu1:hover>img,
+.menu1:hover i {
+    @include transition-hover;
+    width: 100%;
+    padding: 10px;
+}
+// Menu 2 index
+
+.menu2 {
+    @include menu-box;
+    box-shadow: $box-shadow;
+    background-color: $background-menu2;
+    font-family: 'Redressed', cursive;
+}
+.menu2>img,
+.menu2 i  {
+    @include transition;
+    -webkit-background-clip: text;
+    color: $title-menu1; 
+}
+.menu2:hover>img,
+.menu2:hover i {
+    @include transition-hover;
+    width: 100%;
+    padding: 10px;
+}

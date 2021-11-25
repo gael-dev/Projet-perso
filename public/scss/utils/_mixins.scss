@@ -1,0 +1,43 @@
+// mixin mise en forme
+
+@mixin display {
+    display: flex;
+    flex-flow: column;
+    width: 610px;
+    margin: 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+// mixin boite des menus
+
+@mixin menu-box {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 485px;
+    margin: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius:5px;
+}
+
+//mixin de transition
+
+@mixin transition {
+    transform: scale(1);
+    opacity: 1;
+    transition-duration: 600ms;
+    text-decoration: none;
+}
+// mixin de transition survole de souris
+
+@mixin transition-hover {
+    opacity: 0.5;
+    transform: scale(1.2);
+    transform: rotate(-0.5turn);
+    transition: ease-in-out 600ms;
+    width: 100%;
+}

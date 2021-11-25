@@ -1,0 +1,65 @@
+
+.divider {
+height: 3rem;
+background-color: rgba(0, 0, 0, .4);
+border: solid rgba(0, 0, 0, .15);
+border-width: 1px 0;
+box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+h1 {
+    background-image: linear-gradient(to right, yellowgreen 10% , rgb(233, 180, 110) 98%);
+    place-self: center;
+    font-style: italic;
+    text-decoration: underline;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+}
+
+.background {
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+.backg {
+    background-image: url(../img/backgroundwall1.png);
+    margin-top: 6rem!important;
+    padding-bottom: 6rem!important;
+    background-repeat: no-repeat;
+  }
+
+#corps {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    place-content: center;
+}
+
+a {
+    text-decoration: none;
+    text-align: -webkit-center;
+    color: yellowgreen;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+    text-align: -webkit-center;
+
+}
+
+#container2 {
+    text-align: -webkit-center;
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foot {
+    width: 80%;
+}

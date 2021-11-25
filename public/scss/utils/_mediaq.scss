@@ -1,0 +1,56 @@
+// Mise en page responsive pour tablettes et mobiles
+
+@media screen and (max-width: 1680px) {
+    #corps {
+        flex-wrap: nowrap;
+    }
+    .nenu {
+        display: none!important;
+    }
+    .background  {
+        justify-content: center;
+    }
+    .sidebar_left {
+        margin: 50px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        display: block;
+    }
+    #corps {
+        flex-wrap: wrap-reverse;
+    }
+    .sidebar_left {
+        margin: 50px;
+        width: 80%;
+        display: block;
+    }
+
+    .moi {
+        width: 30%;
+        height: 50%;
+    }
+  
+}
+
+@media screen and (max-width: 768px) {
+ 
+    .moi {
+        width: 50%;
+        height: 50%;
+    }
+    .sidebar {
+        display: inline-table;
+    }
+    .menu1 {
+        margin:0;
+    }
+    .menu2 {
+        margin: 0;
+    }
+
+   
+}

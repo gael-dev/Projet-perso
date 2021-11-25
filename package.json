@@ -1,0 +1,25 @@
+{
+  "name": "projet-perso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./public/scss/main.scss:./public/css/styles.css --style expanded",
+    "prefix": "postcss ./public/css/styles.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gael-dev/Projet-perso.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gael-dev/Projet-perso/issues"
+  },
+  "homepage": "https://github.com/gael-dev/Projet-perso#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.1",
+    "jquery": "^3.6.0"
+  }
+}
